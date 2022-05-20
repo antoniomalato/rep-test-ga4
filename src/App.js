@@ -12,7 +12,7 @@ import ReactGA from 'react-ga';
 function App() {
 
   useEffect(() => {
-    ReactGA.initialize('');
+    ReactGA.initialize('G-JCL42MD8F9');
     // To Report Page View 
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, [])
